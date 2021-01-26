@@ -19,34 +19,42 @@
       </nav>
     </header>
     
-    <form>
-      <div class="login-form" hidden>
-        <div class="form-group email">
-          <label for="email" class="label email">Enter your email:</label>
-          <input id="email" type="email" class="input email" placeholder="azerty@mail.com" required>
-        </div>
-        <div class="form-group password">
-          <label for="password" class="label password">Enter your password:</label>
-          <input id="password" type="password" class="input email" minlength="8" maxlength="16" required>
-        </div>
-        <button class="btn">Sign Up</button>
-        <input class="btn" type="submit" value="Log In">
-     </div>
-     <div class="signup-form">
-       <div class="form-group email">
-         <label for="email" class="label email">Enter your email:</label>
-         <input id="email" type="email" class="input email" placeholder="azerty@mail.com" required>
+    <form class="form">
+      <div class="form-container">
+        <div class="login-form" >
+          <div class="form-group email">
+            <label for="email" class="label email">Enter your email</label>
+            <input id="email" type="email" class="input email" placeholder="azerty@mail.com" required>
+          </div>
+          <div class="form-group password">
+            <label for="password" class="label password">Enter your password</label>
+            <input id="password" type="password" class="input email" minlength="8" maxlength="16" required>
+          </div>
+          <div class="btn-group">
+            <button class="btn" type="button">Sign Up</button>
+            <input class="btn" type="submit" value="Log In">
+          </div>
        </div>
-       <div class="form-group password">
-         <label for="password" class="label password">Enter your password:</label>
-         <input id="password" type="password" class="input email" minlength="8" maxlength="16" required>
+  
+       <div class="signup-form">
+         <div class="form-group email">
+           <label for="email" class="label email">Enter your email:</label>
+           <input id="email" type="email" class="input email" placeholder="azerty@mail.com" required>
+         </div>
+         <div class="form-group password">
+           <label for="password" class="label password">Enter your password:</label>
+           <input id="password" type="password" class="input email" minlength="8" maxlength="16" required>
+         </div>
+         <div class="form-group password">
+           <label for="password" class="label password">Confirm your password</label>
+           <input id="password" type="password" class="input email" minlength="8" maxlength="16" required>
+         </div>
+         <div class="btn-group">
+           <button class="btn" type="button">Log In</button>
+           <input class="btn" type="submit" value="Sign Up">
+         </div>
        </div>
-       <div class="form-group password">
-         <label for="password" class="label password">Confirm your password</label>
-         <input id="password" type="password" class="input email" minlength="8" maxlength="16" required>
-       </div>
-       <input class="btn sign-up" type="submit" value="Sign Up">
-     </div>
+      </div>
     </form>
 
 
